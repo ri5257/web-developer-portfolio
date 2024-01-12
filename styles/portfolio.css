@@ -16,7 +16,6 @@ body {
     font-size: 15px;
     font-weight: 700;
     padding: 12px;
-    45px;
 }
 
 .section-title {
@@ -101,9 +100,6 @@ nav a {
     max-width: 500px;
 }
 
-/* main section styles */
-main {}
-
 /* about section styles */
 .about {
     padding: 50px;
@@ -175,3 +171,21 @@ margin: 15%;
     text-align: center;
     margin-top: 50px;
 }
+footer{
+    display: flex;
+    margin-top: 50px;
+    padding:100px  130px 0px 200px;
+    gap: 100px;
+}
+.footer-Column{
+    width: 950px;
+  
+}
+.Footer-Contact input, textarea{
+    display: block;
+    margin-bottom: 20px;
+    padding: 18px 35px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #fccead;
+}  
